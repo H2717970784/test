@@ -80,4 +80,4 @@
 
 ## 插入图片
   在文件插入图片，需要指定图片地址，区分本地地址与URL网络地址。本地图片地址，外网无法访问，需要用户将本地图片上传到图床网站，生成网络图片的URL
-![桌面截图](图片地址 "https://pic.imgdb.cn/item/66f958eef21886ccc0d15a6f.png")
+![桌面截图](https://pic.imgdb.cn/item/66f958eef21886ccc0d15a6f.png "截图")
