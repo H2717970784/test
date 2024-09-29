@@ -39,9 +39,38 @@
      1. 三级列表(2)
 
 ## 表格
-  如果要在文档中绘制表格，需要使用|来分隔列，并且指定内容的对齐方式<br>
+  如果要在文档中绘制表格，需要使用|来分隔列，并且指定内容的对齐方式。<br>
 |姓名|技能|排行|
 |--|:--:|--:|
 |A|A|A|
 |ABC|ABC|ABC|
 |A|A|A|
+
+## 插入代码片段
+使用\`\`\`语言，开头，以\`\`\`结束，之间直接插入代码即可。<br>
+
+```c
+   #include <stdio.h>
+   int main(){
+	printf("Hello World!\n");
+	return 0;
+   }
+```
+
+```bash
+   pwd
+   echo "abc"
+   cd
+   pwd
+   ps aux
+```
+
+```cpp
+   #include <iostream>
+   using namespace std;
+
+   int main(){
+      cout << "Hello World!" << endl;
+      return 0;
+   }
+```
