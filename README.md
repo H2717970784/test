@@ -50,29 +50,29 @@
 使用\`\`\`语言，开头，以\`\`\`结束，之间直接插入代码即可。<br>
 
 ```c
-   #include <stdio.h>
-   int main(){
-	printf("Hello World!\n");
-	return 0;
-   }
+#include <stdio.h>
+int main(){
+   printf("Hello World!\n");
+   return 0;
+}
 ```
 
 ```bash
-   pwd
-   echo "abc"
-   cd
-   pwd
-   ps aux
+pwd
+echo "abc"
+cd
+pwd
+ps aux
 ```
 
 ```cpp
-   #include <iostream>
-   using namespace std;
+#include <iostream>
+using namespace std;
 
-   int main(){
-      cout << "Hello World!" << endl;
-      return 0;
-   }
+int main(){
+   cout << "Hello World!" << endl;
+   return 0;
+}
 ```
 ## 超链接
   在文档中加入可点击的超链接，点击后按照指定的地址访问打开新资源。<br>
