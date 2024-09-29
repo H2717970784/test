@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
-	printf("test output\n");
+
+	printf("123456");
 	return 0;
 }
